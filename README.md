@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Expense Splitter 💸
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://expense-splitter-kappa-seven.vercel.app/)
+[![GitHub](https://img.shields.io/badge/github-repository-blue)](https://github.com/NipunKushwaha-web/Expense-Splitter)
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/deployed_on-Vercel-black?logo=vercel)](https://vercel.com/)
 
-First, run the development server:
+<img width="1013" height="976" alt="Screenshot 2026-03-27 164813" src="https://github.com/user-attachments/assets/ecc5d380-826d-40e0-b5ff-ac79dec6a9e0" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A modern, intuitive web application for splitting expenses among friends, roommates, or groups. Calculate who owes whom and settle up easily!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Expense Splitter Dashboard](https://expense-splitter-kappa-seven.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **👥 Add Participants** - Easily add multiple participants with their names
+- **💰 Expense Management** - Add various expenses with descriptions and amounts
+- **⚡ Automatic Calculations** - Real-time calculation of who owes whom and how much
+- **🎨 Visual Balance Display** - Color-coded balances (green for positive, red for negative)
+- **🔄 Reset Functionality** - Clear all data with a single click
+- **📱 Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
+- **🎯 User-Friendly Interface** - Clean, modern UI with intuitive controls
 
-## Learn More
+## 🚀 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Check out the live application: [expense-splitter-kappa-seven.vercel.app](https://expense-splitter-kappa-seven.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📋 How to Use
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Add Participants**
+   - Enter participant names in the input field
+   - Click "Add" or press Enter to add them to the list
 
-## Deploy on Vercel
+2. **Add Expenses**
+   - Fill in expense description
+   - Enter the amount
+   - Select who paid for the expense
+   - Click "Add Expense"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **View Balances**
+   - See each participant's balance automatically calculated
+   - Positive balance (green): Amount they are owed
+   - Negative balance (red): Amount they owe
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Settle Up**
+   - Use the calculated amounts to settle expenses between participants
+   - The app shows exactly who should pay whom
+
+5. **Reset**
+   - Click "Reset All" to clear all data and start fresh
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React.js 18** | Frontend framework for building UI components |
+| **Tailwind CSS** | Utility-first CSS framework for styling |
+| **React Icons** | Icon library for UI elements |
+| **JavaScript ES6+** | Modern JavaScript features |
+| **Vercel** | Deployment and hosting platform |
+| **Git & GitHub** | Version control and collaboration |
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/NipunKushwaha-web/Expense-Splitter.git
+   cd Expense-Splitter
